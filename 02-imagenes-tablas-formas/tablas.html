@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tablas</title>
+    </head>
+    <body>
+        <h1>Tablas en HTML</h1>
+        <a href="index.html">Inicio</a>
+        <hr>
+        <table border="1">
+            <!-- tr define las filas -->
+            <tr>
+                <!-- resaltando los encabezados de la tablas con th-->
+                <th>horario</th>
+                <th>materia</th>
+            </tr>
+            <tr>
+                <!-- td define las celdas -->
+                <td>09:30 - 10:30</td>
+                <td>Programación</td>
+            </tr>
+            <tr>
+                <td>10:30 - 11:30</td>
+                <td>Algoritmos</td>
+            </tr>
+            <tr>
+                <td>11:30 - 12:30</td>
+                <td>Ciencia de datos</td>
+            </tr>
+        </table>
+
+        <hr/>
+        <h2>Ejercicio de tablas: horario Bootcamp</h2>
+        <br/>
+        <center>
+            <table>
+                <tr>
+                    <th colspan="6"; style="background-color: rgb(119, 119, 226);">Horario bootcamp</th>
+                </tr>
+                <tbody style="background-color: burlywood;">
+                    <tr>
+                        <th>\</th>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miercoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                    </tr>
+        
+                    <tr>
+                        <th>9:30 - 10:30</th>
+                        <td>Introduccion a html</td>
+                        <td>Introduccion a CSS</td>
+                        <td>HTML avanzado</td>
+                        <td>CSS avanzado</td>
+                        <td>Introduccion a bootstrap</td>
+                    </tr>
+        
+                    <tr>
+                        <th>10:30 - 13:00</th>
+                        <td>Introduccion a html</td>
+                        <td>salidas profesionales 2</td>
+                        <td>Introduccion a las entrevistas</td>
+                        <td>CSS avanzado</td>
+                        <td>Introduccion a bootstrap</td>
+                    </tr>
+        
+                    <tr>
+                        <th>13:00 - 14:00</th>
+                        <td>Comida</td>
+                        <td>Comida</td>
+                        <td>Comida</td>
+                        <td>Comida</td>
+                        <td>Comida</td>
+                    </tr>
+        
+                    <tr>
+                        <th>14:00 - 15:30</th>
+                        <td>Introduccion a CSS</td>
+                        <td>HTML avanzado</td>
+                        <td>CSS avanzado</td>
+                        <td>CSS avanzado</td>
+                        <td>Mujeres en la tecnologia</td>
+                    </tr>
+        
+                    <tr>
+                        <th>15:30 - 17:30</th>
+                        <td>Introduccion a CSS</td>
+                        <td>Ejercicio de emails</td>
+                        <td>CSS avanzado</td>
+                        <td>Introduccion a bootstrap</td>
+                        <td>importancia de la autoestima</td>
+                    </tr>
+                </tbody>
+            </table>
+        </center>
+
+        <hr/>
+        <h2>Etiquetas</h2>
+        <h3>Unir celdas</h3>
+        <p>Para unir celdas utilizamos los comandos colspan y rowspan dentro de las etiquetas td, colspan sirve para unir celdas en la misma fila, mientras que rowspan une celdas sobre la misma columna</p>
+        <table border="1">
+            <tr>
+                <td>celda 1</td>
+                <td colspan="2"> celdas 2 y 3</td>
+            </tr>
+            <tr>
+                <td>celda 4</td>
+                <td>celda 5</td>
+                <td>celda 6</td>
+            </tr>
+            <tr>
+                <td>celda 7</td>
+                <td>celda 8</td>
+                <td rowspan="2"> celdas 9 y 13</td>
+            </tr>
+            <tr>
+                <td>celda 10</td>
+                <td>celda 12</td>
+            </tr>
+        </table>
+
+        <hr/>
+        <h2>Ejercicio 2: colspan y rowspan</h2>
+        <table border="1">
+            <tr>
+                <td>Rojo</td>
+                <td colspan="2">Verde</td>
+            </tr>
+            <tr>
+                <td>Cáfe</td>
+                <td>Marron</td>
+                <td>Tinto</td>
+            </tr>
+            <tr>
+                <td colspan="3">Naranja</td>
+            </tr>
+            <tr>
+                <td colspan="2">Blanco</td>
+                <td>Negro</td>
+            </tr>
+        </table> 
+        <hr/>
+
+        <h2>Pruebas de tablas</h2>
+        <table border="1">
+            <tr>
+                <td><img src="images2.jfif" alt="me diste"></td>
+                <td><img src="https://www.show.news/__export/1567201752167/sites/debate/img/2019/08/30/gato_png_crop1567201738546.jpg_1902800913.jpg" alt="Me dijiste"; width="200"></td>
+            </tr>
+        </table>
+    </body>
+</html>
