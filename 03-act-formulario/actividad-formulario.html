@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Actividad formulario</title>
+        <link href="actividad-formulario.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h1>Crear cuenta</h1>
+        <h3>Datos de usuario</h3>
+        <table class="tabla">
+            <tr>
+                <td>
+                    <img src="pngwing.com.png" alt="Chems" width="150">
+                </td>
+                <td id="datos">
+                    <form>
+                        <p>
+                            <label for="usuario">Nombre de usuario</label>
+                            <input type="text" name="nombre">
+                        </p>
+                        <p>
+                            <label for="contraseña">Password</label>
+                            <input type="password" name="contraseña">
+                        </p>
+                        <p>
+                            <label for="confirmaContraseña">Confirmar password</label>
+                            <input type="password" name="confirmaContraseña">
+                        </p>
+            
+                        <h4>Frase de seguridad</h4>
+                        <p>
+                            <label for="frase"></label>
+                            <textarea name="area" id="seguridad" cols="50" rows="1"></textarea>
+                        </p>
+                        
+                        <h4>Terminos y condiciones</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse rerum quo cum hic laborum provident perferendis fuga laudantium! Molestiae ea enim quidem. Ab libero recusandae itaque maxime ea ullam unde.</p>
+            
+                        <p>
+                            <label for="aceptarCondiciones">Acepto terminos y condiciones</label>
+                            <input type="checkbox" name="aceptarCondiciones">
+                        </p>
+                        <p>
+                            <input type="submit" value="Guardar y confirmar">
+                        </p>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
